@@ -1,5 +1,11 @@
 # S13---Assignment
 
+## Model
+
+Custom ResNet model for CIFAR10 classification is meticulously designed to tackle image recognition challenges effectively. It features a preprocessing layer, three primary layers, and an FC layer. Employing Convolutional layers, MaxPooling, Batch Normalization, ReLU activations, and Residual Blocks, it adeptly handles feature extraction while mitigating vanishing gradients.
+
+The model's depth and residual connections culminate in a SoftMax function for efficient class probability scoring, ensuring robust classification performance on CIFAR10 images.
+
 ## Test_loss: 0.295156, Test_acc: 89.8599%
 
 ## Loss function graph:
